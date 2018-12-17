@@ -26,21 +26,33 @@
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="http://www.google.com" class="simple-text">
+                    <a href="/dashboard" class="simple-text">
                         EasyCost
                     </a>
                 </div>
                 <ul class="nav">
                     <li>
-                        <a class="nav-link" href="#pablo">
-                            <i class="nc-icon nc-alien-33"></i>
-                            <p>Menu 1</p>
+                        <a class="nav-link" href="#">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Orçamentos</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#pablo">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Menu 2</p>
+                        <a class="nav-link" href="#">
+                            <i class="nc-icon nc-grid-45"></i>
+                            <p>Composições</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="nc-icon nc-app"></i>
+                            <p>Insumos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Relatórios</p>
                         </a>
                     </li>
                 </ul>
@@ -50,7 +62,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class=" container-fluid  ">
-                    <a class="navbar-brand" href="#pablo"> Dashboard </a>
+                    <a class="navbar-brand" href="#"> Dashboard </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>
                         <span class="navbar-toggler-bar burger-lines"></span>
@@ -87,7 +99,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="#">
                                     <span class="no-icon">Conta</span>
                                 </a>
                             </li>
@@ -105,7 +117,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="#">
                                     <span class="no-icon">Sair</span>
                                 </a>
                             </li>
@@ -136,11 +148,6 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
                                     Blog
                                 </a>
                             </li>
@@ -158,7 +165,8 @@
         </div>
     </div>
     <!--   -->
-    <!-- <div class="fixed-plugin">
+<!-- 
+<div class="fixed-plugin">
     <div class="dropdown show-dropdown">
         <a href="#" data-toggle="dropdown">
             <i class="fa fa-cog fa-2x"> </i>
@@ -237,21 +245,22 @@
 </div>
  -->
 </body>
+
 <!--   Core JS Files   -->
-<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="{{ asset('js/core/jquery.3.2.1.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/core/popper.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/core/bootstrap.min.js') }}" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="../assets/js/plugins/bootstrap-switch.js"></script>
+<script src="{{ asset('js/plugins/bootstrap-switch.js') }}"></script>
 <!--  Google Maps Plugin    -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!--  Chartist Plugin  -->
-<script src="../assets/js/plugins/chartist.min.js"></script>
+<script src="{{ asset('js/plugins/chartist.min.js') }}"></script>
 <!--  Notifications Plugin    -->
-<script src="../assets/js/plugins/bootstrap-notify.js"></script>
+<script src="{{ asset('js/plugins/bootstrap-notify.js') }}"></script>
 <!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
-<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.1" type="text/javascript"></script>
+<script src="{{ asset('js/light-bootstrap-dashboard.js?v=2.0.1') }}" type="text/javascript"></script>
 <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
-<script src="../assets/js/demo.js"></script>
+<script src="{{ asset('js/demo.js') }}"></script>
 
 </html>
