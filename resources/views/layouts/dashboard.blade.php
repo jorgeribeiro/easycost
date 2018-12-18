@@ -155,7 +155,7 @@
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>
-                            EasyCost
+                            Jorge Ribeiro
                         </p>
                     </nav>
                 </div>
