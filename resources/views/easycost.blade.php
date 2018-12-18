@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
 
 @section('content')
-orcamentos.blade.php
+easycost.blade.php
 @endsection

@@ -18,10 +18,10 @@
 
 <body>
     <div class="wrapper">        
-        <div class="sidebar" data-color="blue" data-image="{{ asset('img/sidebar-4.jpg') }}">
+        <div class="sidebar" data-color="blue" data-image="{{ asset('img/sidebar-6.jpg') }}">
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="/dashboard" class="simple-text">
+                    <a href="/easycost" class="simple-text">
                         EasyCost
                     </a>
                 </div>
@@ -121,12 +121,15 @@
                 </div>
             </nav>
             <!-- End Navbar -->
+
             <div class="content">
                 <div class="container-fluid">
                     <div class="section">
+                        @yield('content')
                     </div>
                 </div>
-            </div>
+            </div>            
+
             <footer class="footer">
                 <div class="container">
                     <nav>
