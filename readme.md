@@ -7,9 +7,9 @@ Tem como fim facilitar a criação e futura inserção de composições e insumo
 
 ## Tecnologias
 
-PHP (Laravel)
-MySQL
-Bootstrap (Light Bootstrap Dashboard)
+- PHP (Laravel)
+- MySQL
+- Bootstrap (Light Bootstrap Dashboard)
 
 ## Instalação
 
