@@ -13,4 +13,5 @@ Tem como fim facilitar a criação e futura inserção de composições e insumo
 
 ## Instalação
 
-Coming soon...
+Instalar o composer e após baixar o projeto, rodar composer install dentro da pasta da aplicação.
+Renomear o arquivo .env.example para .env e rodar php artisan key:generate.
