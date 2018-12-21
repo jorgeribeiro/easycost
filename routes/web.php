@@ -35,6 +35,10 @@ Route::get('/relatorios', function () {
     return view('relatorios');
 });
 
+Route::get('/novo_orcamento', function () {
+    return view('novo_orcamento');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

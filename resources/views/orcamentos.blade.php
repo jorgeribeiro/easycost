@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="card strpied-tabled-with-hover">
-    <div class="card-header ">
+    <div class="card-header">
         <h4 class="card-title">Orçamentos</h4>
         <p class="card-category">Orçamentos criados na sua empresa</p>
     </div>
@@ -14,7 +14,7 @@
                 <th>Criado em</th>
                 <th>Estado</th>
                 <th>Data SINAPI</th>
-                <th>Atualizar</th>
+                <th>Ações</th>
             </thead>
             <tbody>
                 <tr>
@@ -61,4 +61,7 @@
         </table>
     </div>
 </div>
+<a class="btn btn-success btn-fill" href="/novo_orcamento">
+    <span class="no-icon">Novo orçamento</span>
+</a>
 @endsection

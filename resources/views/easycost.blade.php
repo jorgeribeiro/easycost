@@ -13,7 +13,7 @@
                         <div class="col-md-5 pr-1">
                             <div class="form-group">
                                 <label>Nome completo</label>
-                                <input type="text" class="form-control" placeholder="Company" value="Jorge Luis Melo Ribeiro">
+                                <input type="text" class="form-control" placeholder="Nome completo" value="Jorge Luis Melo Ribeiro">
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                         <div class="col-md-5 pr-1">
                             <div class="form-group">
                                 <label>Empresa</label>
-                                <input type="text" class="form-control" disabled="" placeholder="Company" value="EasyCost">
+                                <input type="text" class="form-control" disabled="" placeholder="Empresa" value="EasyCost">
                             </div>
                         </div>
                         <div class="col-md-3 px-1">
